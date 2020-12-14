@@ -1,0 +1,13 @@
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\bin\Debug\netcoreapp3.1\EmployeeManager.exe
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\bin\Debug\netcoreapp3.1\EmployeeManager.deps.json
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\bin\Debug\netcoreapp3.1\EmployeeManager.runtimeconfig.json
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\bin\Debug\netcoreapp3.1\EmployeeManager.runtimeconfig.dev.json
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\bin\Debug\netcoreapp3.1\EmployeeManager.dll
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\bin\Debug\netcoreapp3.1\EmployeeManager.pdb
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\obj\Debug\netcoreapp3.1\EmployeeManager.csprojAssemblyReference.cache
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\obj\Debug\netcoreapp3.1\EmployeeManager.AssemblyInfoInputs.cache
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\obj\Debug\netcoreapp3.1\EmployeeManager.AssemblyInfo.cs
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\obj\Debug\netcoreapp3.1\EmployeeManager.csproj.CoreCompileInputs.cache
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\obj\Debug\netcoreapp3.1\EmployeeManager.dll
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\obj\Debug\netcoreapp3.1\EmployeeManager.pdb
+C:\Users\DinhSang\Desktop\EmployeeManager\EmployeeManager\EmployeeManager\obj\Debug\netcoreapp3.1\EmployeeManager.genruntimeconfig.cache
