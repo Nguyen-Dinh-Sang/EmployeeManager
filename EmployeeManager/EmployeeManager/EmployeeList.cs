@@ -83,5 +83,66 @@ namespace EmployeeManager
                 Console.WriteLine("\n");
             }
         }
+
+        public void newEmployeeList()
+        {
+            Console.WriteLine("Enter The New Employee List");
+            Boolean running = true;
+            employees.Clear();
+            while (running)
+            {
+                newEmployee();
+                Console.WriteLine("1: Continue");
+                Console.WriteLine("2: Exit");
+                Console.Write("Option: ");
+                int option = int.Parse(Console.ReadLine());
+                switch (option)
+                {
+                    case 1:
+                        break;
+                    case 2:
+                        running = false;
+                        break;
+                    default:
+                        Console.WriteLine("An Error Occurred, Please Re-Enter");
+                        newEmployeeList();
+                        break;
+                }
+            }
+        }
+
+        public void totalSalary()
+        {
+            Console.Write("Enter The Basic Salary: ");
+            Double basicSalary = Double.Parse(Console.ReadLine());
+            Double totalSalary = 0;
+            foreach (Employee item in employees)
+            {
+                Double salary = 0;
+                switch (item.type)
+                {
+                    case 1:
+                        salary = basicSalary * item.coefficientsSalary;
+                        break;
+                    case 2:
+                        Console.Write("Enter The Overtime Pay For Programer: ");
+                        Double overtimePay = Double.Parse(Console.ReadLine());
+                        salary = basicSalary * item.coefficientsSalary + overtimePay;
+                        break;
+                    case 3:
+                        Console.Write("Enter The Bonus For Designer: ");
+                        Double bonus = Double.Parse(Console.ReadLine());
+                        salary = basicSalary * item.coefficientsSalary + bonus;
+                        break;
+                    case 4:
+                        Console.Write("Enter The Error For Tester: ");
+                        Double error = Double.Parse(Console.ReadLine());
+                        salary = basicSalary * item.coefficientsSalary + error * 200000;
+                        break;
+                }
+                totalSalary += salary;
+            }
+            Console.WriteLine("Total Salary: " + totalSalary);
+        }
     }
 }

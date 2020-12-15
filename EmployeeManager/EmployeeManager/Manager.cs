@@ -29,6 +29,7 @@ namespace EmployeeManager
         public void newEmployeeList()
         {
             Console.WriteLine("\nNew Employee List");
+            employees.newEmployeeList();
         }
 
         public void newEmployee()
@@ -45,8 +46,8 @@ namespace EmployeeManager
 
         public void totalSalary()
         {
-            //nhập lương cơ bản
             Console.WriteLine("\nTotal Salary");
+            employees.totalSalary();
         }
     }
 }
